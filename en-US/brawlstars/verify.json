@@ -2,25 +2,19 @@
   "DESCRIPTION": "When the verification is enabled on the server, you can verify yourself with this command. When the verification is with image, the image must be sent in the same message.",
   "USAGE": "verify <Brawl Stars player tag> [image]",
   "EXAMPLES": "{{prefix}}verify #CCUQLY0 \n{{prefix}}verify #CCUQLY0 <image>",
-
   "VERIFICATION_DISABLED": "The verification is disabled. Please run the command `verification` first.",
   "NO_BS_USER_TAG": "Please enter your Brawl Stars player tag.",
   "ALREADY_VERIFIED": "You are already verified. Please use `{{prefix}}update` to update your roles.",
   "TAG_ALREADY_IN_USE": "This player Tag (`{{tag}}`) is already in use.",
   "WRONG_CHANNEL": "The verify command works only in <#{{channel}}>.",
   "UNDEFINED_LOG_CHANNEL": "I can't find the log channel. Please use the `verification-log` command.",
-  "NO_PLAYER_TAG": "There is no player with the tag: `#{{tag}}`",
-  "ERR_STATUS": "There went something wrong `HTTP Status Code {{status}}`",
-  "NO_CLUB_TAG": "There is no club with the tag: `#{{tag}}`",
   "NO_IMAGE_URL": "The verification is with image. You must provide a screenshot of your Brawl Stars Profile.",
   "WRONG_IMAGE_TYPE": "The image file format must be one of the followings: `.jpg`, `.jpeg`, `.png` or `.gif`.",
-  "TAG_SAVED": "Successfully linked the Brawl Stars account #{{tag}} to {{user}}'s discord account.",
-  "ERROR": "There went something wrong. Please try it again later.",
   "HEADINGS": {
     "TITLE": "Member verified",
     "DESCRIPTION": "Successfully linked the Brawl Stars account `#{{tag}}` to {{user}}'s discord account."
   },
   "VERIFIED_WITH_NAME_CHANGE": "Successfully edited role(s) and name for {{user}}.",
   "VERIFIED_WITHOUT_NAME_CHANGE": "Successfully edited role(s) for {{user}}.",
-  "VERIFIYING": "Verifying {{user}}."
+  "VERIFYING": "Verifying {{user}}."
 }

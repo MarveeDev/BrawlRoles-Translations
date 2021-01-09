@@ -1,5 +1,5 @@
 {
-    "DESCRIPTION": "Zeigt die Bot-Latenz und mehr an.",
-    "USAGE": "ping",
-    "EXAMPLES": "{{prefix}}ping"
+  "DESCRIPTION": "Zeigt die Latenzzeit und mehr an.",
+  "USAGE": "ping",
+  "EXAMPLES": "{{prefix}}ping"
 }

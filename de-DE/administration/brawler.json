@@ -2,20 +2,16 @@
   "DESCRIPTION": "Fügt eine Op-Rolle hinzu oder entfernt sie.",
   "USAGE": "brawler <hinzufügen / entfernen> <Rolle> [Trophäen] [Brawler]",
   "EXAMPLES": "{{prefix}}brawler hinzufügen @OP_Carl 1000 carl \n{{prefix}}brawler entfernen @OP_Carl",
-
-  "NO_ROLE_FOUND": "Ich konnte die Rolle nicht finden.",
   "ERR_TROPHIES": "Die Anzahl der Trophäen muss eine Zahl sein.",
   "ERR_BRAWLER": "Es gibt keinen Brawler mit dem Namen: `{{name}}`.",
   "ROLE_ALREADY_IN_USE": "Die Rolle {{role}} wird bereits genutzt.",
   "BRAWLER_ALREADY_SAVED": "Es ist bereits eine Op-Rolle für diesen Brawler gespeichert.",
-
   "SUCCESS_ADD_ROLE": "die Rolle {{role}} wurde erfolgreich als Op-Rolle für den Brawler `{{brawler}}` mit `{{trophies}}` Trophäen hinzugefügt.",
   "SUCCESS_REMOVE_ROLE": "Die Op-Rolle {{role}} wurde erfolgreich als Op-Rolle entfernt.",
   "ROLE_NOT_ASSIGNED": "Diese Rolle ist nicht als Op-Rolle zugewiesen.",
-
   "VERIFICATION_DISABLED": "Die Verifizierung ist nicht aktiviert, bitte führe den Befehl `verification` zuerst aus.",
-  "NO_STATUS": "Bitte gib `hinzufügen` ein, um eine Rolle hinzuzufügen oder `entfernen`, um sie zu entfernen.",
-  "NO_ROLE": "Bitte gib eine Rolle an.",
+  "STATUS_EX": " eine Rolle von der Datenbank",
+  "NO_ROLE_EX": ".",
   "NO_TROPHIES": "Bitte geben Sie die Anzahl der Trophäen ein, die der Brawler haben muss.",
   "NO_BRAWLER": "Bitte gib einen Brawler an."
 }

@@ -1,12 +1,10 @@
 {
-  "DESCRIPTION": "Attiva o disattiva il log della verifica.",
+  "DESCRIPTION": "Enables or disables the verification logging.",
   "USAGE": "verification-log <enable / disable> [channel]",
   "EXAMPLES": "{{prefix}}verification-log enable #log \n{{prefix}}verification-log disable",
-  "NO_STATUS": "Per favore digita `enable` per attivare oppure `disable` per disattivare il log della verifica.",
-  "STATUS_EX": " il log della verifica.",
-  "NO_CHANNEL": "Per favore digita il canale dove verranno inviati i log della verifica.",
-  "ALREADY_ENABLED": "Il `verification-log` è già attivo in <#{{channel}}>.",
-  "SUCCESS_ENABLED": "Il log della verifica è stato abilitato con successo. Invierò tutti i log in <#{{channel}}>",
-  "ALREADY_DISABLED": "Il `verification-log` è già disabilitato.",
-  "SUCCESS_DISABLED": "il `verification-log` è stato disabilitato con successo."
+  "STATUS_EX": " the verification-log.",
+  "ALREADY_ENABLED": "The `verification-log` is already enabled in <#{{channel}}>.",
+  "SUCCESS_ENABLED": "Successfully enabled the verification-log. I will log everything in <#{{channel}}>",
+  "ALREADY_DISABLED": "The `verification-log` is already disabled.",
+  "SUCCESS_DISABLED": "Successfully disabled the `verification-log`."
 }

@@ -1,6 +1,6 @@
 {
-  "NO_STATUS": "(2){Please enter `{{status_0}}` to {{status_0}} or `{{status_1}}` to {{status_1}}$t({{command}}:STATUS_EX)};(4){Please enter a valid status. This could either be `{{status_0}}`, `{{status_1}}`, `{{status_2}}` or `{{status_3}}`$t({{command}}:STATUS_EX)};",
-  "INVALID_STATUS": "(2){Please enter `{{status_0}}` to {{status_0}} or `{{status_1}}` to {{status_1}} $t({{command}}:STATUS_EX)};(4){Please enter a valid status. This could either be `{{status_0}}`, `{{status_1}}`, `{{status_2}}` or `{{status_3}}`$t({{command}}:STATUS_EX)};",
+  "NO_STATUS": "(2){Please enter `{{status_0}}` to {{status_0}} or `{{status_1}}` to {{status_1}}$t({{command}}:STATUS_EX)};(3){Please enter `{{status_0}}` to {{status_0}}, `{{status_1}}` to {{status_1}} or `{{status_2}}` to {{status_2}}$t({{command}}:STATUS_EX)};(4){Please enter a valid status. This could either be `{{status_0}}`, `{{status_1}}`, `{{status_2}}` or `{{status_3}}`$t({{command}}:STATUS_EX)};",
+  "INVALID_STATUS": "(2){Please enter `{{status_0}}` to {{status_0}} or `{{status_1}}` to {{status_1}} $t({{command}}:STATUS_EX)};(3){Please enter a valid status. This could either be `{{status_0}}`, `{{status_1}}` or `{{status_2}}`$t({{command}}:STATUS_EX)};(4){Please enter a valid status. This could either be `{{status_0}}`, `{{status_1}}`, `{{status_2}}` or `{{status_3}}`$t({{command}}:STATUS_EX)};",
   "NO_CHANNEL": "Please enter a channel.",
   "INVALID_CHANNEL": "I couldn't find this channel.",
   "NO_ROLE": "Please enter a role$t({{command}}:NO_ROLE_EX)",

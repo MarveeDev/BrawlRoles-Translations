@@ -2,13 +2,8 @@
   "DESCRIPTION": "Updates the verification role(s).",
   "USAGE": "update",
   "EXAMPLES": "update",
-
   "VERIFICATION_DISABLED": "The verification is disabled. Please run the command `verification` first.",
-  "NOT_MANAGEABLE": "I can't edit your roles due to role hierarchy.",
   "NO_TAG_SAVED": "You haven't saved a Brawl Stars tag yet. Run the command `verify` in <#{{channel}}> first.",
   "SUCCESSFULLY_UPDATED": "{{user}} has been updated successfully.",
-
-  "NO_CLUB_TAG": "There is no club with the tag: `#{{tag}}`",
-  "NO_PLAYER_TAG": "There is no player with the tag: `#{{tag}}`",
   "UPDATING": "Updating {{user}}."
 }

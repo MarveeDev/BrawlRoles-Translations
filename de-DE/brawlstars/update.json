@@ -2,13 +2,8 @@
   "DESCRIPTION": "Aktualisiert die Verifizierungsrolle(n).",
   "USAGE": "update",
   "EXAMPLES": "update",
-
   "VERIFICATION_DISABLED": "Die Verifizierung ist deaktiviert. Bitte führen Sie zuerst den Befehl `verification` aus.",
-  "NOT_MANAGEABLE": "Ich kann deine Rollen aufgrund der Rollenhierarchie nicht bearbeiten.",
   "NO_TAG_SAVED": "Du hast noch keinen Brawl Stars Kürzel eingespeichert. Benutze den Befehl `verify` in <#{{channel}}> zuerst.",
   "SUCCESSFULLY_UPDATED": "{{user}} wurde erfolgreich aktualisiert.",
-
-  "NO_CLUB_TAG": "Es gibt keinen Club mit dem Kürzel: `#{{tag}}`",
-  "NO_PLAYER_TAG": "Es gibt keinen Spieler mit dem Kürzel: `#{{tag}}`",
   "UPDATING": "Aktualisiere {{user}}."
 }

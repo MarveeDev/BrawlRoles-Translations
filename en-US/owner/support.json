@@ -2,11 +2,11 @@
   "DESCRIPTION": "Grant Permission for Bot Moderator to execute Moderation Commands in other Servers.",
   "USAGE": "{{prefix}}support <add / remove> [user] [guild_id]",
   "EXAMPLES": "{{prefix}}support add @Knirpsii 646632226284503043",
-  "NO_STATUS": "Please mention a valid Status. That can either be `add` or `remove`.",
-  "NO_USER" : "Please specify a member you want to add/remove to the allowed guilds.",
-  "NO_GUILD" : "Please specify a guild you want to add/remove to the allowed guilds.",
-  "NOT_RESOLVED" : "I couldn't find anything.",
-  "SUCCESS" : "I successfully {{status}} {{user}} the Bot Moderator commands permissions in the Server {{guild}} ({{guild_ID}}).",
-  "ALREADY_DB" : "This user is already saved for this Server in the Database.",
-  "NO_DB" : "I couldn't find this user saved for this Server in the Database."
+  "NO_STATUS": "Please mention a valid Status. This can either be `add` or `remove`.",
+  "NO_USER": "Please specify a member you want to add/remove to the allowed guilds.",
+  "NO_GUILD": "Please specify a guild you want to add/remove to the allowed guilds.",
+  "NOT_RESOLVED": "I couldn't find anything.",
+  "SUCCESS": "I successfully {{status}} {{user}} the Bot Moderator commands permissions in the Server {{guild}} ({{guild_ID}}).",
+  "ALREADY_DB": "This user is already saved for this Server in the Database.",
+  "NO_DB": "I couldn't find this user saved for this Server in the Database."
 }

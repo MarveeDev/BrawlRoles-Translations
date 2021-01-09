@@ -1,0 +1,10 @@
+{
+  "NO_STATUS": "(2){Bitte gib `{{status_0}}` an, um $t({{command}}:STATUS_EX) {{status_0}} oder `{{status_1}}`, um $t({{command}}:STATUS_EX) {{status_1}}};(3){Bitte gib `{{status_0}}` an, um $t({{command}}:STATUS_EX) {{status_0}}, `{{status_1}}`, um $t({{command}}:STATUS_EX) {{status_1}} oder `{{status_2}}`, um $t({{command}}:STATUS_EX) `{{status_2}}`};(4){Bitte gib einen gültigen Status an. Dieser kann entweder `{{status_0}}`, `{{status_1}}`, `{{status_2}}` oder `{{status_3}}` sein.};",
+  "INVALID_STATUS": "(2){Bitte gib `{{status_0}}` an, um $t({{command}}:STATUS_EX) {{status_0}} oder `{{status_1}}`, um $t({{command}}:STATUS_EX) zu {{status_1}}};(3){Bitte gib einen gültigen Status an. Dieser kann entweder `{{status_0}}`, `{{status_1}}` oder `{{status_2}}` sein.}(3){Bitte gib einen gültigen Status an. Dieser kann `{{status_0}}`, `{{status_1}}` oder `{{status_2}}` sein};(4){Bitte gib einen gültigen Status an. Dieser kann `{{status_0}}`, `{{status_1}}`, `{{status_2}}` oder `{{status_3}}` sein.};",
+  "NO_CHANNEL": "Bitte gib einen Kanal an.",
+  "INVALID_CHANNEL": "Ich konnte diesen Kanal nicht finden.",
+  "NO_ROLE": "Bitte gib eine Rolle an$t({{command}}:NO_ROLE_EX)",
+  "INVALID_ROLE": "Ich konnte diese Rolle nicht finden.",
+  "NO_MEMBER": "Bitte gib ein Mitglied an$t({{command}}:NO_MEMBER_EX",
+  "INVALID_MEMBER": "Ich konnte dieses Mitglied nicht finden."
+}

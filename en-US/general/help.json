@@ -2,7 +2,6 @@
     "DESCRIPTION": "Show commands list or information about a command.",
     "USAGE": "help [command]",
     "EXAMPLES": "{{prefix}}help\n{{prefix}}help ping",
-    "CUSTOM": "The `{{cmd}}` command has no help page because it's a custom command.",
     "NOT_FOUND": "No command found for: `{{search}}`",
     "FIELD_USAGE": "Usage",
     "FIELD_DESCRIPTION": "Description",

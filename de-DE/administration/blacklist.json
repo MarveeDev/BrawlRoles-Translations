@@ -2,16 +2,17 @@
   "DESCRIPTION": "Fügt einen Spieler auf der schwarzen Liste hinzu oder entfernt ihn aus der Club-Logging-Liste. Du kannst einen Grund angeben.",
   "USAGE": "blacklist <hinzufügen / entfernen / anzeigen> <Spieler Kürzel> [Zu erwähnender Rang] [Grund]",
   "EXAMPLES": "{{prefix}}blacklist hinzufügen #YU9G98V8 vize-präsident untreues Verhalten.\n{{prefix}}blacklist entfernen #YU9G98V8\n{{prefix}}blacklist anzeigen",
-  "SUCCESS_ADDED_NO_RANK": "Der Spieler mit dem Kürzel #{{user}} wurde erfolgreich zur schwarzen Liste hinzugefügt. Grund dafür ist:\n{{reason}}\n\nEs wird kein Rang erwähnt, falls dieser Spieler einem Club mit einem aktiven Club-log auf diesem Server beitretet.",
-  "SUCCESS_ADDED": "Der Spieler mit dem Kürzel #{{user}} wurde erfolgreich zur schwarzen Liste hinzugefügt. Grund dafür ist:\n{{reason}}\n\nAlle Spieler mit dem Rang {{rank}} werden erwähnt, sobald dieser Spieler einem Club mit einem aktiven Club-log auf diesem Server beitretet.",
-  "SUCCESS_REMOVED": "Der Spieler mit dem Kürzel #{{user}} wurde erfolgreich von der schwarzen Liste **entfernt**.",
+  "NO_STATUS": "Bitte gib `hinzufügen` ein, um einen Spieler hinzuzufügen, `entfernen`, um einen Spieler von der schwarzen Liste zu entfernen oder `anzeigen`, um die schwarze Liste zu sehen.",
+  "STATUS_EX": "",
+  "NO_ROLE_EX": ".",
   "PLAYER_ALREADY_BLACKLIST": "Dieser Spieler ist bereits auf der schwarzen Liste.",
   "PLAYER_NO_BLACKLIST": "Dieser Spieler steht nicht auf der schwarzen Liste.",
-  "NO_STATUS": "Bitte gib `hinzufügen` ein, um einen Spieler hinzuzufügen, `entfernen`, um einen Spieler von der schwarzen Liste zu entfernen oder `anzeigen`, um die schwarze Liste zu sehen.",
   "NO_PLAYERTAG": "Bitte gib ein Spieler Kürzel an.",
   "REASON_TOO_LONG": "Dein Grund ist zu lang, die maximal erlaubte Anzahl an Zeichen liegt bei 180.",
   "NO_REASON": "Kein Grund angegeben.",
   "NO_BLACKLIST": "Es sind noch keine Spieler auf der schwarzen Liste.",
   "BLACKLIST": "Spieler auf der Schwarzen Liste.",
-  "NO_RANK": "Bitte gib einen Rang an. Dieser kann folgender sein:\n `Standard`, `Mitglied`, `Senior`, `Vize-Präsident` oder `nichts`."
+  "SUCCESS_ADDED_NO_RANK": "Der Spieler mit dem Kürzel #{{user}} wurde erfolgreich zur schwarzen Liste hinzugefügt. Grund dafür ist:\n{{reason}}\n\nEs wird kein Rang erwähnt, falls dieser Spieler einem Club mit einem aktiven Club-log auf diesem Server beitretet.",
+  "SUCCESS_ADDED": "Der Spieler mit dem Kürzel #{{user}} wurde erfolgreich zur schwarzen Liste hinzugefügt. Grund dafür ist:\n{{reason}}\n\nAlle Spieler mit dem Rang {{rank}} werden erwähnt, sobald dieser Spieler einem Club mit einem aktiven Club-log auf diesem Server beitretet.",
+  "SUCCESS_REMOVED": "Der Spieler mit dem Kürzel #{{user}} wurde erfolgreich von der schwarzen Liste **entfernt**."
 }

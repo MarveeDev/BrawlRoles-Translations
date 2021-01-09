@@ -1,0 +1,7 @@
+{
+  "DESCRIPTION": "Reloads a command.",
+  "USAGE": "{{prefix}}reload [command]",
+  "EXAMPLES": "{{prefix}}reload autodelete",
+  "NO_COMMAND": "Please enter a command to reload.",
+  "SUCCESS_RELOADED": "Successfully reloaded the command `{{command}}`."
+}

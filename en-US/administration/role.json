@@ -2,13 +2,9 @@
   "DESCRIPTION": "Adds or removes a role from the verification.",
   "USAGE": "role <add / remove> <role> [add / remove] [solo / duo / 3vs3 / verified / highestTrophies] [wins / highestTrophies] ",
   "EXAMPLES": "{{prefix}}role add @Solo3000 add solo 3000 \n{{prefix}}role add @Not_Verified remove verified \n{{prefix}}role remove @Solo3000",
-
-  "NO_STATUS": "Please enter `add` to add or `remove` to remove a role from the database.",
   "STATUS_EX": " a role from the database.",
   "VERIFICATION_DISABLED": "The verification is disabled. Please run the command `verification` first.",
-  "NO_ROLE": "Please enter a role.",
   "NO_ROLE_EX": ".",
-  "NO_ROLE_FOUND": "I couldn't find the role.",
   "NO_ADD_REMOVE_FROM_MEMBER": "Please enter `add` when the role should be added or `remove` when the role should be removed from a member.",
   "NO_EVENT": "Please enter an event. \n(`solo`, `duo`, `3vs3`, `verified` or `highestTrophies`) \n(verified is a standard role that every member get (removed))",
   "NO_WIN": "Please enter an amount of wins the player must have.",
@@ -21,20 +17,13 @@
   "SUCCESS_ADD_HIGHEST": "The role {{role}} will be added to Brawl Stars player with the highest trophies of {{trophies}} and more.",
   "ERR_DEFAULT_ROLE": "You can't remove the default verification role.",
   "ROLE_NOT_SAVED": "This role {{role}} isn't saved in the database.",
-
   "ROLE_ALREADY_IN_USE": "The role {{role}} is already in use.",
   "SUCCESS_REMOVED": "The role {{role}} was successfully removed as a verification role.",
-
   "BRAWL_STARS": {
     "SOLO": "Solo",
     "DUO": "Duo",
     "3VS3": "3VS3",
     "VERIFIED": "Verified",
     "HIGHEST_TROPHIES": "highestTrophies"
-  },
-
-  "DIALOG": {
-    "ADDED": "Added",
-    "REMOVED": "Removed"
   }
 }

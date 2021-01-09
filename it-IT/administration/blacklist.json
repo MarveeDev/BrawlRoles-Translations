@@ -2,16 +2,17 @@
   "DESCRIPTION": "Adds or removes a blacklisted player from club-logging. You can add a reason.",
   "USAGE": "blacklist <add / remove / get> <player tag> [Rank to Mention] [reason]",
   "EXAMPLES": "{{prefix}}blacklist add #YU9G98V8 vice-president Being very mean to everybody\n{{prefix}}blacklist remove #YU9G98V8\n{{prefix}}blacklist get",
-  "SUCCESS_ADDED_NO_RANK": "Successfully **added** the player whit the Tag #{{user}} to the blacklist with the reason:\n{{reason}}\n\nNo rank will be notified if he joins a club with an active club-log in this server.",
-  "SUCCESS_ADDED": "Successfully **added** the player with the Tag #{{user}} to the blacklist with the reason:\n{{reason}}\n\nAll members in the club with the rank {{rank}} will be mentioned. If he joins a club with an active club-log in this server.",
-  "SUCCESS_REMOVED": "Successfully **removed** the player with the Tag #{{user}} from the blacklist.",
-  "PLAYER_ALREADY_BLACKLIST": "This player is already on the blacklist of this club.",
-  "PLAYER_NO_BLACKLIST": "This player is not on the blacklist of this club.",
   "NO_STATUS": "Please enter `add` to add, `remove` to remove a player from a club blacklist or `get` to see the blacklist.",
+  "STATUS_EX": ".",
+  "NO_ROLE_EX": " which will be tagged when the member joins a club.",
+  "PLAYER_ALREADY_BLACKLISTED": "This player is already on the blacklist of this club.",
+  "PLAYER_NOT_BLACKLIST": "This player is not blacklisted.",
   "NO_PLAYERTAG": "Please enter a player tag.",
   "REASON_TOO_LONG": "Your reason is too long, the maximum of allowed characters are 180 letters.",
   "NO_REASON": "No reason given.",
   "NO_BLACKLIST": "There are no players blacklisted yet.",
   "BLACKLIST": "Blacklisted Players:",
-  "NO_RANK": "Please enter a rank. This can be one of the following:\n `default`, `member`, `senior`, `Vice-president` or `none`."
+  "SUCCESS_ADDED_NO_RANK": "Successfully **added** the player whit the Tag #{{user}} to the blacklist with the reason:\n{{reason}}\n\nNo rank will be notified if he joins a club with an active club-log in this server.",
+  "SUCCESS_ADDED": "Successfully **added** the player with the Tag #{{user}} to the blacklist with the reason:\n{{reason}}\n\nAll members with the role {{role}} will be mentioned if he joins a club with an active club-log in this server.",
+  "SUCCESS_REMOVED": "Successfully **removed** the player with the Tag #{{user}} from the blacklist."
 }

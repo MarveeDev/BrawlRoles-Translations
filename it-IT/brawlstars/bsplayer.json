@@ -2,11 +2,9 @@
   "DESCRIPTION": "Displays the stats of a Brawl Stars Player.",
   "USAGE": "bsplayer <payerTag>",
   "EXAMPLES": "{{prefix}}bsplayer #CCUQLY0",
-
   "NO_PLAYER_TAG": "There is no player with the tag: `#{{tag}}`",
   "ERR_STATUS": "There went something wrong `HTTP Status Code {{status}}`",
   "ERR_NO_TAG": "Please enter a playerTag.",
-
   "EMBED_HEADERS": {
     "TITLE": "{{user}} Brawl Stars user profile",
     "USERTAG": "**Tag: **{{tag}}",

@@ -2,11 +2,9 @@
   "DESCRIPTION": "Administration command for moderators to get information of the Bawl Stars player tag of the member.",
   "USAGE": "tag <set / reset / find / get> <member> <user tag>",
   "EXAMPLES": "{{prefix}}tag set @Knirpsii #YU9G98V8\n{{prefix}}tag find #YU9G98V8\n{{prefix}}tag get @Knirpsii\n{{prefix}}tag reset @Knirpsii",
-  "NO_STATUS": "Please enter a valid status. This could either be `set`, `reset`, `find` or `get`.",
   "STATUS_EX": ".",
   "NO_MEMBER_EX": ".",
   "NO_TAG": "Please enter a Brawl Stars player tag.",
-  "NO_TARGET": "Please define a member.",
   "NO_REGISTER": "<@{{member}}> has not linked his/her Brawl Stars account to his/her Discord account yet.",
   "FOUND": "I found the user tag `#{{tag}}` linked to <@{{member}}>'s account.",
   "EDIT_SUCCESS": "Successfully linked the Brawl Stars account `#{{tag}}` to <@{{member}}>'s discord Account.",
@@ -15,6 +13,5 @@
   "RESET": "Successfully reset <@{{member}}>'s user tag.",
   "ERR_RESET": "I couldn't reset <@{{member}}>'s user tag.",
   "TAG_NO_USER": "I haven't found an user with this user tag, please ensure you spelled it correctly.",
-  "MEMBER_FOUND": "I found the following member saved with this user tag:\n\n <@{{member}}>.",
-  "NO_PLAYER_TAG": "Please enter a Brawl Stars player tag."
+  "MEMBER_FOUND": "I found the following member saved with this user tag:\n\n <@{{member}}>."
 }

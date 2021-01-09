@@ -1,8 +1,8 @@
 {
-  "DESCRIPTION": "Elimina tutte le impostazioni del bot nel server. (Prefix, lingua, ruoli, verifica, ecc.)",
+  "DESCRIPTION": "Deletes all the server's settings. (Prefix, language, roles, verification, etc.)",
   "USAGE": "reset",
   "EXAMPLES": "{{prefix}}reset",
-  "PROOF": "Sei sicuro di voler ritornare alle impostazioni predefinite?",
-  "SUCCESS_DELETED": "Le impostazioni del bot sono state correttamente reimpostate a quelle predefinite.",
-  "CANCELLED": "La richiesta di reset è stata cancellata."
+  "PROOF": "Are you sure you want to reset your server settings to default?",
+  "SUCCESS_DELETED": "Successfully reset all settings to default.",
+  "CANCELLED": "Cancelled reset request."
 }

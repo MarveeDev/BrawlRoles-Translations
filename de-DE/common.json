@@ -25,6 +25,7 @@
   "USES": "Benutzungen",
   "YES": "Ja",
   "NO": "Nein",
+  "NONE": "nichts",
   "ADD": "hinzufügen",
   "REMOVE": "entfernen",
   "SET": "Setzen",
@@ -39,7 +40,9 @@
   "MULTIPLE_ROLES": "Ich habe mehrere Rollen gefunden. Bitte wähle eine Rolle aus, indem du die Nummer eingibst oder `abbrechen` schreibst, um den command abzubrechen. \n{{roles}}",
   "MULTIPLE_USERS": "Ich habe mehrere Benutzer gefunden. Bitte wähle einen Benutzer aus, indem du die Nummer eingibst oder `abbrechen` schreibst, um den command abzubrechen. \n{{users}}",
   "MULTIPLE_CHANNELS": "Ich habe mehrere Kanäle gefunden. Bitte wähle einen Kanal aus, indem du die Nummer eingibst oder `abbrechen` schreibst, um den command abzubrechen. \n{{channels}}",
-  "HTTP_STATUS": "Es ist etwas schief gelaufen: `HTTP Status Code {{httpStatus}}`",
   "SOMETHING_WRONG": "Es ist etwas mit diesem Befehl schief gelaufen.",
+  "ERR_PLAYER_TAG": "Es gibt keinen Spieler mit dem Kürzel `#{{tag}}`",
+  "ERR_CLUB_TAG": "Es gibt keinen Club mit dem Kürzel `#{{tag}}`",
+  "ERR_STATUS": "Es ist etwas schief gelaufen: `HTTP Status Code {{status}}`",
   "PAGE": "Seite"
 }

@@ -2,17 +2,13 @@
   "DESCRIPTION": "Fügt Protokolle über Clubveranstaltungen hinzu oder entfernt sie",
   "USAGE": "clublog <hinzufügen / entfernen> <Kanal> <club Kürzel>",
   "EXAMPLES": "{{prefix}}clublog hinzufügen #log #20UYU82UY\n{{prefix}}clublog entfernen #log",
+  "STATUS_EX": " ein Clublog zu",
+  "VERIFICATION_DISABLED": "Die Verifizierung ist deaktiviert. Bitte nutze den Befehl `verification` zuerst.",
   "MEMBER_NOT_VERIFIED": "Bitte verknüpfe dein Brawl Stars-Konto zuerst. Du musst ein verifizierter Vizepräsident oder Präsident des Clubs sein, um die Protokollierung zu aktivieren.",
-  "ERR_CLUB": "Es gibt kein Club mit dem Kürzel `#{{clubTag}}`",
-  "NO_PERMS_TO_LINK": "Du musst ein verifizierter Vizepräsident oder Präsident des Clubs sein, um die Protokollierung zu aktivieren.",
   "MAX_CLUBLOGS_REACHED": "Du hast die maximale Anzahl von Club-Logs erreicht. Du kannst maximal 4 Club-Logs gleichzeitig aktiv haben.",
   "SUCCESS_ENABLED": "Die Club Protokollierung für den Club #{{clubTag}} wurde erfolgreich im Kanal {{channel}} aktiviert.",
   "ERR_CHANNEL_ALREADY_IN_USE": "Es ist bereits eine Protokollierung in diesem Kanal aktiviert.",
   "NO_CLUBTAG": "Bitte gib ein Brawl Stars Club Kürzel an.",
-  "NO_CHANNEL": "Bitte gib ein Kanal an, in welchem die Club Protokollierung stattfinden sollte.",
-  "ERR_VERIFICATION_DISABLED": "Die Verifizierung ist deaktiviert. Bitte nutze den Befehl `verification` zuerst.",
   "SUCCESS_DISABLED": "Die Club Protokollierung wurde erfolgreich im Kanal {{channel}} für den Club #{{clubTag}} deaktiviert.",
-  "NO_CLUBLOG": "Es exisitert keine aktive Club Protokollierung im Kanal {{channel}}.",
-  "MISSING_CHANNEL": "Ich konnte diesen Kanal nicht finden.",
-  "NO_STATUS": "Bitte gib `hinzufügen`, um eine Club Protokollierung hinzuzufügen oder `entfernen`, um eine zu entfernen an."
+  "NO_CLUBLOG": "Es exisitert keine aktive Club Protokollierung im Kanal {{channel}}."
 }

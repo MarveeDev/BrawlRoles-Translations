@@ -2,16 +2,12 @@
   "DESCRIPTION": "Wenn die Verifizierung auf dem Server aktiviert ist, können sich Mitglieder mit diesem Befehl selbst verifizieren. Wenn die Verifizierung mit Bild erfolgt, muss das Bild in der gleichen Nachricht gesendet werden.",
   "USAGE": "verify <Brawl Stars Spielerkürzel> [Bild]",
   "EXAMPLES": "{{prefix}}verify #CCUQLY0 \n{{prefix}}verify #CCUQLY0 <Bild>",
-
   "VERIFICATION_DISABLED": "Die Verifizierung ist deaktiviert. Bitte nutze den Befehl `verification` zuerst.",
   "NO_BS_USER_TAG": "Bitte gib dein Brawl Stars Spielerkürzel ein.",
   "ALREADY_VERIFIED": "Du bist bereits verifiziert, bitte benutze `{{prefix}}update` um deine Rollen zu aktualisieren.",
   "TAG_ALREADY_IN_USE": "Dieses Spielerkürzel (`{{tag}}`) wird bereits benutzt.",
   "WRONG_CHANNEL": "Der Befehl Verify funktioniert nur im Kanal <#{{channel}}>.",
   "UNDEFINED_LOG_CHANNEL": "Ich kann den Protokollkanal nicht finden, bitte nutze den Befehl `verification-log` zuerst.",
-  "NO_PLAYER_TAG": "Es existiert kein Spieler mit dem Kürzel `#{{tag}}`",
-  "ERR_STATUS": "Es ist etwas schief gelaufen, `HTTP Status Code {{status}}`",
-  "NO_CLUB_TAG": "Es gibt keinen Brawl Stars Club mit dem Tag: `#{{tag}}`",
   "NO_IMAGE_URL": "Die Verifizierung ist mit Bild. Bitte füge ein Bildschirmfoto von deinem Brawl Stars Profil hinzu.",
   "TAG_SAVED": "Ich habe das Brawl Stars Kürzel #{{tag}} für {{user}} eingespeichert.",
   "HEADINGS": {

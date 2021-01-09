@@ -6,7 +6,6 @@
   "EVERYONE_MENTION": "Du hast keine Berechtigung everyone oder here zu pingen.",
   "STATS_FOOTER": "[Invite](https://discordapp.com/oauth2/authorize?client_id=686123976296103945&scope=bot&permissions=2146954495) ● [Support](https://discord.gg/ucScGNU) ● [Vote](https://top.gg/bot/686123976296103945) ● [Docs](https://docs.brawlroles.mahler.link)",
   "COMMAND_DISABLED": "Dieser Befehl ist zurzeit deaktiviert.",
-  "INVALID_YES_NO": "Du musst \"ja\" oder \"nein\" schreiben.",
   "INVALID_CHANNEL": "Bitte gib einen gültigen Kanal ein.",
   "UNKNOWN_COMMAND": "Unbekannter Befehl `{{command}}`. Gib bitte `{{prefix}}help` ein um die Liste aller Befehle zu sehen.",
   "COMMAND_GUILDONLY": "Dieser Befehl kann nur auf dem Server eingegeben werden. In Direktnachrichten funktioniert er nicht.",
